@@ -1,0 +1,42 @@
+
+---
+
+### `.gitignore`
+
+```gitignore
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Model checkpoints
+*.bin
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Datasets and outputs
+*.json
+data/
+outputs/
+logs/
+models/
+api.txt
+
+# Environment
+.env
+.venv/
+venv/
+*.env
+*.egg-info/
+
+# System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
